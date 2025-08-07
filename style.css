@@ -24,6 +24,24 @@ body{
     color: white;
 }
 
-.form-col{
-    margin-left: 2%;
-}
+.form-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+.form-col {
+      flex: 1;
+    }
+
+.n {
+      width: 80%;
+      margin-bottom: 10px;
+      height: 30px;
+    }
+
+input[type="submit"],
+input[type="reset"] {
+      margin-top: 15px;
+      margin-right: 10px;
+    }
