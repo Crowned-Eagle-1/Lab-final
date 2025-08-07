@@ -1,0 +1,27 @@
+body{
+    display: flex;
+}
+.part1{
+    background-color: white;
+    border: 1px solid;
+    width: 46%;
+    height: 1000px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    top: 20px;
+    
+}
+
+
+.heading1{
+    text-align: center;
+}
+
+.n{
+    width: 70%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+

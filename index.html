@@ -3,14 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Registration</title>
 </head>
-<body style="background-color: aqua;">
-    <div>
+<body style="background-color: rgb(6, 93, 255);">
+    <div class="part1">
+        <h1 class="heading1">Student Registration</h1>
+        <hr style="margin-left: 10%; margin-right: 10%;">
+        <div style="display: flex;">
+            <div style="padding-left: 5%; width: 55%;">
+            <br>
+            <label for="fname">First Name</label><br>
+            <input class="n" type="text" placeholder="Enter your first name" required><br>
+            <label for="email">Email</label><br>
+            <input class="n" type="email" placeholder="akdls@gmail.com"><br>
+            <label for="dob" >Date of Birth</label><br>
+            <input class="n" type="date" ><br>
+            <label for="id">Student ID</label><br>
+            <input class="n" type="number" placeholder="enter 6-8 digit id" required><br>
+            <label for="Current Semester">Current Semester</label><br>
+            <input class="n" type="number" placeholder="1-12" required><br>
+            <label for="language">Programming Languages</label><br>
+            <input type="checkbox" name="language" value="h" id="h"><label for="h">HTML/CSS</label>
+            <input type="checkbox" name="language" value="J" id="J"><label for="J">JAVASCRIPT</label>
+            <input type="checkbox" name="language" value="P" id="P"><label for="P">PYTHON</label>
+            <input type="checkbox" name="language" value="JA" id="JA"><label for="JA">JAVA</label>
 
+            <br>
+            <br><label>Learning Mode Preferance:</label><br>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Online</label>
+
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Offline</label>
+
+                <input type="radio" name="gender" value="1female" id="1female">
+                <label for="1female">Hybrid</label>
+            <br><br><label  for="linked">Enter Linked in link</label><br>
+            <input class="n" type="text" placeholder="enter linkedin link" required style="height:40px;"><br>
+            <br><label for="expe">Programming Experiance(Years)</label>
+            <br><input class="n"  type="range" required><br>
+
+            <label for="cv">Enter your CV</label><br>
+            <input class="n"  type="file"required><br>
+
+            <label for="gl">Carrier Goal</label><br>
+            <input class="n" type="text" required style="height: 120px;"><br>        
+             </div>
+
+
+             <div style="padding-left: 5%; width: 55%;">
+                <br>
+                <label for="lname">Last Name</label><br>
+                <input class="n"  type="text" placeholder="Enter your last name"><br>
+                <label for="phn">Phone Number</label><br>
+                <input class="n"  type="tel" placeholder="123456987" required><br>
+                <label for="phn">Phone Number</label><br>
+                <input class="n"  type="tel" placeholder="123456987" required><br>
+                <br><label for="gender">Gender</label><br>
+                <select  class="n" id="gender" name="gender">
+                    <option value="">---</option>
+                    <option value="male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br><label for="department">Department</label><br>
+                <select  class="n" id="department" name="department">
+                    <option value="">---</option>
+                    <option value="CSE">CSE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="BBA">BBA</option>
+                </select>
+                <br><label for="cg">CGPA</label>
+                <br><input class="n"  type="number" placeholder="0.00-4.00" required><br>
+                <br><br>
+                <label  for="linked">Enter GitHub link</label><br>
+                <input class="n" type="text" placeholder="enter github link" required style="height: 40px;"><br>
+             </div>
+
+                      
+        </div>
+        <br><br><button type="submit" id="submit"><a href="one.html" target="_blank">submit</a></button>    
+        <div>
+        </div>
     </div>
 
-    <div>
+    <div class="part1">
         
     </div>
 </body>
