@@ -9,9 +9,21 @@ body{
 }
 
 #div1{
-    background-color: rgb(32, 5, 5);
+    background-color: rgb(12, 2, 2);
 }
 
 #div2{
     background-color: antiquewhite;
+}
+
+.heading{
+    color: rgb(255, 126, 5);
+}
+
+.attribute{
+    color: white;
+}
+
+.form-col{
+    margin-left: 2%;
 }
