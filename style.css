@@ -1,27 +1,40 @@
-body{
-    display: flex;
-}
-.part1{
-    background-color: white;
-    border: 1px solid;
-    width: 46%;
-    height: 1000px;
-    border-radius: 10px;
-    position: relative;
-    margin-left: 2%;
-    margin-right: 2%;
-    top: 20px;
-    
-}
+body {
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+    }
 
+    .maindiv {
+      background-color: white;
+      border: 2px solid;
+      width: 90%;
+      margin: 20px;
+      border-radius: 15px;
+      padding: 20px;
+    }
 
-.heading1{
-    text-align: center;
-}
+    .mainhead {
+      text-align: center;
+    }
 
-.n{
-    width: 70%;
-    height: 20px;
-    margin-bottom: 10px;
-}
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
 
+    .form-col {
+      flex: 1;
+    }
+
+    .n {
+      width: 80%;
+      margin-bottom: 10px;
+      height: 20px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      margin-top: 15px;
+      margin-right: 10px;
+    }
