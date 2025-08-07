@@ -33,8 +33,13 @@
             <label class="attribute" for="pnumber">phone number</label><br />
             <input class="n" type="number" name="pnumber" placeholder="Enter your phone number"/><br />
 
-            <label class="attribute" for="dob">Date of Birth</label><br />
-            <input class="n" type="date" name="dob" required /><br/>
+           <label class="attribute" for="nationality">Nationality</label><br />
+          <select class="n" id="nationality" name="nationality">
+            <option value="">Select Country</option>
+            <option value="b">Bangladesh</option>
+            <option value="i">India</option>
+            <option value="p">Pakisthan</option>
+          </select><br />
         </div>
 
       </div>
@@ -42,22 +47,35 @@
       <h2 class="heading">ACADEMIC INFORMATION</h2>
       <div class="form-row">
         <div class="form-col">
-            
+           <label class="attribute" for="id">Student ID</label><br />
+          <input class="n" type="number" name="id" placeholder="**-*****-**" required /><br />
+
+          <label class="attribute" for="Academicyear">Academic Year</label><br />
+          <input class="n" type="number" name="Academicyear" placeholder="1-4"/><br />
         </div>
 
         <div class="form-col">
-            <label class="attribute" for="lname">Last Name *</label><br />
-            <input class="n" type="text" name="lname" placeholder="Enter your last name" required /><br />
+          <label class="attribute" for="department">Department</label><br />
+          <select class="n" id="department" name="department" required>
+            <option value="">---</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="BBA">BBA</option>
+          </select><br />
 
-            <label class="attribute" for="pnumber">phone number</label><br />
-            <input class="n" type="number" name="pnumber" placeholder="Enter your phone number"/><br />
-
-            <label class="attribute" for="dob">Date of Birth</label><br />
-            <input class="n" type="date" name="dob" required /><br/>
+          <label class="attribute" for="cgpa">CGPA</label><br />
+          <input class="n" type="number" name="cgpa" step="0.01" placeholder="0.00-4.00" min="0" max="4" required /><br />
         </div>
 
       </div>
 
+      
+          <h2 class="heading">Preferred Study Medium</h2>
+          <input  type="radio" name="mode" value="online" id="online" /><label class="rdbtn" for="online">Online Class</label>
+          <input type="radio" name="mode" value="offline" id="offline" /><label class="rdbtn" for="offline">Offline Class</label><br>
+          <input  type="radio" name="mode" value="hybrid" id="hybrid" /><label class="rdbtn" for="hybrid">Hybrid Mode</label>
+          <input  type="radio" name="mode" value="evining" id="evining"/><label class="rdbtn" for="hybrid">Evening Class</label><br /><br />
+      
       <input type="submit" value="Submit" />
       <input type="reset" value="Reset" />
     </form>
@@ -69,4 +87,5 @@
     </div>
 </body>
 </html>
+
 

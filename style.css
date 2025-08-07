@@ -2,7 +2,7 @@ body{
     display: flex;
 }
 .maindiv{
-    height: 700px;
+    height: 1000px;
     width: 50%;
     border: 1px solid;
 
@@ -28,14 +28,15 @@ body{
       display: flex;
       justify-content: space-between;
       gap: 20px;
+      padding-left: 10px;
     }
 
 .form-col {
       flex: 1;
     }
 
-.n {
-      width: 80%;
+.n{
+      width: 90%;
       margin-bottom: 10px;
       height: 30px;
     }
@@ -45,3 +46,10 @@ input[type="reset"] {
       margin-top: 15px;
       margin-right: 10px;
     }
+
+.rdbtn{
+    color: aliceblue;
+    border: 2px solid;
+    background-color: rgb(96, 93, 93);
+    font-size: large;
+}
