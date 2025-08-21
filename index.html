@@ -8,9 +8,12 @@
 </head>
 <body>
     <div class="maindiv" id="div1">
+      <div class="div11">
         <h1 style="text-align: center; color: rgb(222, 5, 5); padding-bottom:0%;">Student Hub</h1>
         <h3 style="text-align: center; color: white;">Create your academic Profile</h3>
         <br>
+      </div>
+
         <div>
         <form action="/submit" method="post">
       <h2 class="heading">PERSONAL DETAILS</h2>
@@ -71,13 +74,13 @@
 
           <h2 class="heading">Preferred Study Medium</h2>
           <input class="a" type="radio" name="mode" value="online" id="online" /><label class="rdbtn" for="online">Online Class</label>
-          <input class="a" type="radio" name="mode" value="offline" id="offline" /><label class="rdbtn" for="offline">Offline Class</label>
+          <input class="a" type="radio" name="mode" value="offline" id="offline" /><label class="rdbtn" for="offline">Offline Class</label> <br>
           <input class="a" type="radio" name="mode" value="hybrid" id="hybrid" /><label class="rdbtn" for="hybrid">Hybrid Mode</label>
           <input class="a" type="radio" name="mode" value="evining" id="evining"/><label class="rdbtn" for="hybrid">Evening Class</label><br /><br />
       
           <h2 class="heading">Skills & Experince Technical Skills</h2>
           <input type="checkbox" name="lan" value="html" id="h" /><label class="skill" for="h">HTML/CSS</label>
-          <input type="checkbox" name="lan" value="js" id="J" /><label class="skill" for="J">JAVASCRIPT</label>
+          <input type="checkbox" name="lan" value="js" id="J" /><label class="skill" for="J">JAVASCRIPT</label> <br>
           <input type="checkbox" name="lan" value="python" id="P" /><label class="skill" for="P">PYTHON</label>
           <input type="checkbox" name="lan" value="java" id="JA" /><label class="skill" for="JA">JAVA</label><br /><br />
 
@@ -97,14 +100,47 @@
     <h2 class="heading"> Carrier Goals</h2>
     <input style="margin-left: 30px; height: 50px;" class="n" type="text" name="goals" placeholder="" min="0" max="4" required /><br />
 
+    <h2 class="heading">Upload your file: </h2>
+    <input type="file" name="file" accept=".pdf, .docx">
+
       <input type="submit" value="Complete Registration" />
         </form>
         </div>
     </div>
 
-    <div class="maindiv" id="div2">
+    <div class="maindiv" id="div2" style="display: block;">
+        <div>
+            <div style="text-align: center; margin-top: 100px; background-color: blanchedalmond; border: 1px solid; border-radius: 10px; margin-left: 30px; margin-right: 30px; padding-top: 20px;">
+                <img style="width: 100px" src="abc.jpg" alt="">
+                <p class="text">ALex Johnson</p>
+                <p class="text">COmputer Science Student</p>
+            </div>
+        </div>
+
+        <div>
+            <div style=" margin-top: 100px; background-color: blanchedalmond; border: 1px solid; border-radius: 10px; margin-left: 30px; margin-right: 30px; padding-top: 20px;">
+                <h2 class="heading"> Contact Information</h2>
+
+            </div>
+        </div>
+
+        <div>
+            <div style=" margin-top: 100px; background-color: blanchedalmond; border: 1px solid; border-radius: 10px; margin-left: 30px; margin-right: 30px; padding-top: 20px;">
+                <h2 class="heading"> Tachnical Skills</h2>
+                
+            </div>
+        </div>
+
+        <div>
+            <div style=" margin-top: 100px; background-color: blanchedalmond; border: 1px solid; border-radius: 10px; margin-left: 30px; margin-right: 30px; padding-top: 20px;">
+                <h2 class="heading">Academic Progress</h2>
+                
+            </div>
+        </div>
 
     </div>
+
+
 </body>
 </html>
 

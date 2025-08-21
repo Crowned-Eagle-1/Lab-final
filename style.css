@@ -2,7 +2,7 @@ body{
     display: flex;
 }
 .maindiv{
-    height: 1200px;
+    height: 1300px;
     width: 50%;
     border: 1px solid;
 
@@ -12,6 +12,10 @@ body{
     background-color: rgb(12, 2, 2);
 }
 
+.div11{
+    background-color: rgb(12, 2, 2);
+    position: sticky;
+}
 #div2{
     background-color: antiquewhite;
 }
@@ -43,21 +47,27 @@ body{
 
 input[type="submit"]{
       margin-top: 15px;
-      margin-right: 10px;
-      margin-left: 250px;
+      text-align: center;
+      margin-left: 25%;
+      width: 50%;
+      background-color: red;
+      height: 50px;
     }
 
 .rdbtn{
     color: aliceblue;
     border: 2px solid;
-    background-color: rgb(96, 93, 93);
-    font-size: large;
+    background-color: rgb(4, 129, 192);
+    font-size: larger;
 }
 
 .skill{
     color: aliceblue;
     border: 2px solid;
-    background-color: rgb(96, 93, 93);
+    background-color: rgb(107, 215, 18);
     font-size: large;
 }
 
+.text{
+    font-size: larger;
+}
